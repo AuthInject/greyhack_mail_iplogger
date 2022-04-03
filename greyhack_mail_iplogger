@@ -1,0 +1,2 @@
+iplogger = mail_login("example@example.com","examplepassword")
+iplogger.send("example@example.com","<b>NEW_IP_LOGGED</b>","<b>IP_LOGGED: " + get_router.public_ip)
